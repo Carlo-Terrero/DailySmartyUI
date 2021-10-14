@@ -1,17 +1,16 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import Logo from './logo'
 
-class results extends Component {
-
+class Results extends Component {
     render(){
         return(
             <div>
-                <h1>results</h1>
+                <h1>Results</h1>
                 <Logo/>
             </div>
         );
     }
 }
 
-export default results;
+export default Results;
