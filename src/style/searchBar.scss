@@ -1,4 +1,6 @@
 .search-bar {
+    display: grid;
+
     .search-bar__wrapper {
 
         display: grid;
@@ -12,13 +14,12 @@
             border: 0px solid transparent;
             border-radius: 5px;
 
-            height: 118px;
-            font-size: 40px;
-
             transition: all .2s ease;
 
             &::placeholder {
                 color: $color-gray-two;
+                font-family: 'Font Awesome\ 5 Free', 'Lato', Arial, Helvetica, sans-serif;
+                font-weight: 600;
             }
 
             &:focus {
@@ -32,5 +33,25 @@
             font-size: 14px;
             color: $color-gray-two;
         }
+    }
+} 
+
+.search-bar__home {
+    align-content: center;
+    justify-items: center;
+
+    input {
+        height: 118px;
+        font-size: 40px;
+    }
+}
+
+.search-bar__results {
+    align-content: start;
+    justify-items: center;
+
+    input {
+        font-size: 22px;
+        height: 36px;
     }
 } 
