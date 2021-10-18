@@ -6,7 +6,7 @@ class Logo extends Component {
     render() {
         const size = {
             height: this.props.size ? this.props.size : 170,
-            width: this.props.size ? this.props.size : 170
+            width: this.props.size ? this.props.size_2 : 229
         }
         return (
             <div className="logo-main">
